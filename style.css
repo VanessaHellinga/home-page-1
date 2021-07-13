@@ -522,6 +522,16 @@ html {
 }
 
 @media (max-width: 700px) {
+     .navbar-link {
+        color:#730217;
+    }
+    .menu {
+        left: 2rem;
+        background-color: #730217; 
+    }
+    .menu::before {
+        background-color: #730217;
+    }
     .section-heading {
         font-size: 6rem;
         margin: 0 10rem;
@@ -531,9 +541,6 @@ html {
     }
     .section-1-links a {
         font-size: 18rem;
-    }
-    .menu {
-        left: 2rem;
     }
     .section-4 {
         height: 40rem;
@@ -579,7 +586,7 @@ html {
         bottom: 5vw;
         opacity: 1;
         visibility: visible;
-    }
+    }  
 }
 
 @media (max-width: 550px) {
