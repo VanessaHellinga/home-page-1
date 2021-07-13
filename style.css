@@ -553,6 +553,33 @@ html {
     .signup-form {
         padding-left: 5rem;
     }
+    .gallery-link::before{
+        top: .5vw;
+        left: 90%;
+        height: 100%; 
+    }
+    .gallery-link::after{
+        top: 20%;
+        left: 1.5rem;
+        width: 100%;
+        z-index: 10;
+    }
+    .music-img{
+        box-shadow: .5rem .5rem .1rem #F26835, 1rem 1rem .1rem #31010a, 1.5rem 1.5rem .1rem #F2E1AC, 2rem 2rem .1rem #31010a;
+        mix-blend-mode: overlay; 
+        transform: scale(1.1);
+        /* filter: blur(.5rem);
+        opacity: .5; */
+    }
+    .music-name {
+        top: 2.5rem;
+        overflow: visible;  
+    }
+    .music-description {
+        bottom: 5vw;
+        opacity: 1;
+        visibility: visible;
+    }
 }
 
 @media (max-width: 550px) {
