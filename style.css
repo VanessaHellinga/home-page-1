@@ -469,6 +469,9 @@ html {
     html {
         font-size: 50%;
     }
+    .section-1-links a {
+        font-size: 40rem;
+    }
     .section-2 {
         height: auto;
         padding: 10rem 0 12rem 0;
@@ -496,7 +499,8 @@ html {
         font-size: 25rem;
     }
     .section-1-links a {
-        font-size: 22rem;
+        font-size: 28rem;
+        padding-bottom: 3rem;
     }
     .cards-container {
         flex-wrap: wrap;
@@ -522,7 +526,7 @@ html {
 }
 
 @media (max-width: 700px) {
-     .navbar-link {
+    .navbar-link {
         color:#730217;
     }
     .menu {
@@ -540,7 +544,8 @@ html {
         font-size: 20rem;
     }
     .section-1-links a {
-        font-size: 18rem;
+        font-size: 25rem;
+        padding-bottom: 6rem;
     }
     .section-4 {
         height: 40rem;
@@ -600,8 +605,8 @@ html {
         font-size: 16rem;
     }
     .section-1-links a {
-        font-size: 14rem;
-    }
+        font-size: 18rem;
+        padding-bottom: 15rem;
+    }  
 }
-
 /*  END OF RESPONSIVE */
