@@ -608,5 +608,20 @@ html {
         font-size: 18rem;
         padding-bottom: 15rem;
     }  
+ @media (max-width: 415px) {
+    .section-1-icons i{
+        font-size: 18rem;
+    }
+    .section-1-links a {
+        font-size: 25rem;
+        padding-bottom: 28rem;
+    }
+}
+  @media (max-width: 320px) {
+    .section-1-links a {
+        font-size: 22rem;
+        padding-bottom: 20rem;
+    }
+}
 }
 /*  END OF RESPONSIVE */
